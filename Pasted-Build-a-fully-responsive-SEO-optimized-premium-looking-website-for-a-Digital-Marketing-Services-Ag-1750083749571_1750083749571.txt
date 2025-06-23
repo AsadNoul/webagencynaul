@@ -1,0 +1,68 @@
+Build a fully responsive, SEO-optimized, premium-looking website for a Digital Marketing Services Agency based in Dubai targeting clients across the UAE and Gulf region.
+
+The website should be developed using HTML, CSS (preferably TailwindCSS or SCSS), and JavaScript for frontend interactivity. Use Flask (Python) or Node.js/Express for backend logic (admin dashboard & CMS).
+
+🎯 Design Goals:
+	•	Luxury, modern, high-end feel (use black/gold/white theme with elegant fonts)
+	•	Manual header with sticky effect, animated transitions, smooth scrolling
+	•	Fully mobile-responsive
+
+🔧 Frontend Pages:
+	1.	Homepage
+	•	Hero section with bold luxury tagline like: “Where Digital Meets Luxury”
+	•	CTA: “Get Free Proposal”
+	•	Animated background or subtle motion (parallax or video loop)
+	2.	About Us
+	•	Timeline or Story block
+	•	UAE/Gulf expertise emphasis
+	•	Image grid of team/office
+	3.	Services
+	•	SEO (local + international)
+	•	Paid Ads (Google, Meta, TikTok, LinkedIn)
+	•	Web Design / Landing Pages
+	•	Branding & Creative Strategy
+	•	AI + Automation Integration
+	•	Each service with icon + hover effect
+	4.	Case Studies
+	•	Grid layout with filters (industry: Real Estate, Fintech, iGaming)
+	•	Each study includes:
+	•	Hero image
+	•	Results (CPL, CTR, ROAS)
+	•	Testimonial slider
+	5.	Pricing
+	•	Tiered packages: Starter, Growth, Enterprise
+	•	Add-on pricing (Tracking setup, Funnel builds)
+	•	Toggle for monthly/yearly
+	6.	Clients & Work
+	•	Logo carousel
+	•	Portfolio gallery
+	•	Filter by industry
+	7.	Blog
+	•	CMS-powered blog with tags & categories
+	•	Focus: UAE trends, PPC, SEO, Tools
+	8.	Contact Page
+	•	Contact form (send email via backend)
+	•	Embedded Google Map of Dubai office
+	•	WhatsApp button integration
+
+🔒 Admin Panel (Flask/Node.js backend):
+	•	Secure login for admin
+	•	Manage:
+	•	Blog posts
+	•	Leads/contact submissions
+	•	Case studies & portfolio
+	•	Pricing packages
+	•	Simple UI using Bootstrap or Tailwind Dashboard Kit
+
+🧠 Features:
+	•	SEO-friendly meta tags + structured data
+	•	Google Analytics v4 and Meta Pixel integration
+	•	Blog RSS Feed generation
+	•	Sitemap and robots.txt auto-generation
+	•	Arabic support (Multilingual toggle optional)
+	•	Dark mode toggle (luxury version)
+
+📦 Optional:
+	•	Store client testimonials in JSON
+	•	Use SQLite or MongoDB for CMS data
+	•	Newsletter integration (Mailchimp or custo
