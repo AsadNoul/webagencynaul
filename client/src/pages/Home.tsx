@@ -56,7 +56,7 @@ export default function Home() {
           </p>
           <a 
             href="#contact" 
-            className="inline-block bg-gold-500 hover:bg-gold-600 text-black font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105"
+            className="inline-block bg-amber-500 hover:bg-amber-600 text-black font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105"
           >
             Get Free Proposal
           </a>
@@ -168,13 +168,13 @@ export default function Home() {
           <h3 className="text-3xl font-bold mb-4">LuxDigital</h3>
           <p className="text-gray-400 mb-6">Premium Digital Marketing Agency Dubai</p>
           <div className="flex justify-center space-x-6 mb-6">
-            <a href="https://linkedin.com/company/luxdigital" className="hover:text-gold-500 transition-colors">
+            <a href="https://linkedin.com/company/luxdigital" className="hover:text-amber-500 transition-colors">
               <i className="fab fa-linkedin text-2xl"></i>
             </a>
-            <a href="https://instagram.com/luxdigital" className="hover:text-gold-500 transition-colors">
+            <a href="https://instagram.com/luxdigital" className="hover:text-amber-500 transition-colors">
               <i className="fab fa-instagram text-2xl"></i>
             </a>
-            <a href="https://twitter.com/luxdigital" className="hover:text-gold-500 transition-colors">
+            <a href="https://twitter.com/luxdigital" className="hover:text-amber-500 transition-colors">
               <i className="fab fa-twitter text-2xl"></i>
             </a>
           </div>

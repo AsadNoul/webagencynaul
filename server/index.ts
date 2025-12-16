@@ -44,9 +44,9 @@ app.use((req, res, next) => {
   const server = await registerRoutes(app);
 
   // Error handling middleware
-  app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
-    const status = err.status || err.statusCode || 500;
-    const message = err.message || "Internal Server Error";
+  app.use((err: unknown, _req: Request, res: Response, _next: NextFunction) => {
+    const status = (err as any)?.status || (err as any)?.statusCode || 500;
+    const message = err instanceof Error ? err.message : "Internal Server Error";
     console.error(`Error: ${message}`, err);
     res.status(status).json({ message });
   });

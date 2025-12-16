@@ -16,9 +16,10 @@ export function registerRoutes(app: Express): Server {
       const contactData = insertContactSchema.parse(req.body);
       const [newContact] = await db.insert(contacts).values(contactData).returning();
       res.status(201).json(newContact);
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : "Invalid contact data";
       console.error("Error creating contact:", error);
-      res.status(400).json({ message: error.message || "Invalid contact data" });
+      res.status(400).json({ message });
     }
   });
 
@@ -29,9 +30,10 @@ export function registerRoutes(app: Express): Server {
       const { db } = await import("./db");
       const allContacts = await db.select().from(contacts);
       res.json(allContacts);
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : "Error fetching contacts";
       console.error("Error fetching contacts:", error);
-      res.status(500).json({ message: "Error fetching contacts" });
+      res.status(500).json({ message });
     }
   });
 
